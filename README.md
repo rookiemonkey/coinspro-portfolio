@@ -4,7 +4,7 @@
 
 <p>It is intended that the browser consumes the Coins.pro websocket and not the rails server it self mainly because of the ff:
 <ul>
-  <li>Having the rails server as the websocket client for coins.pro's websocket server adds to the complication. It requires separate process different from the webserver it self which might not work when deployed to free services like heroku :grin:</li>
+  <li>Having the rails server as the websocket client for coins.pro's websocket server adds to the complication. It requires separate process different from the webserver (Puma) it self which might not work when deployed to free services like heroku :grin:</li>
   <li>This is for personal use since I want to switch from being a holder to a legit trader :laughing: haha!</li>
   <li>Other portfolio applications are good but their prices doesn't match the one's on coins.pro since they get information from differenct trading platforms which then has different prices.</li>
 </ul>
